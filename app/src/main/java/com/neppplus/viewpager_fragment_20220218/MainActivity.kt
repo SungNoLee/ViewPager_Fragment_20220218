@@ -27,5 +27,6 @@ class MainActivity : AppCompatActivity() {
 
         mainViewPager.offscreenPageLimit = 3
 
+        mainTabLayout.setupWithViewPager(mainViewPager)
     }
 }
